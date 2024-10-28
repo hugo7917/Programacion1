@@ -1,0 +1,6 @@
+var1=input("introduce una frase en minuscula: ")
+var_mayuscula=var1.upper()
+print(var_mayuscula)
+var2=input("introduce una frase en mayuscula: ")
+var_minuscula=var2.lower()
+print(var-minuscula)
