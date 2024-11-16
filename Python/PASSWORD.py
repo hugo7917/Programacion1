@@ -44,9 +44,8 @@ if len(password)<6:
     
 if len(password)>8:
     print("La contraseña supera el numero de carcteres permitidos")
-    
-    
-    #print("La contraseña cumple los requsitos")
+     
+#print("La contraseña cumple los requsitos")
 
 
 
