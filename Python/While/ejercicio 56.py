@@ -62,7 +62,7 @@ def gestionar_pedidos():
         
         continuar = input("\n¿Quiere hacer otro pedido? (si/no): ")
     
-    print(f"\nTotal a pagar por todos los pedidos: ${total_general:.2f}")
+    print(f"Total a pagar por todos los pedidos: ${total_general:.2f}")
     print("¡Gracias por su compra!")
 
 if __name__ == "__main__":
