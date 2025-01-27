@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #53. A partir del código anterior, haz que aparezca al finalizar el programa por pantalla el total las sumas y el número de repeticiones. Con While
 
 repeticiones = "sí"
@@ -36,16 +35,3 @@ print("Gracias por usar el programa.")
 
 
 
-=======
-#53. A partir del código anterior, haz que aparezca al finalizar el programa por pantalla el total las sumas y el número de repeticiones. Con While
-
-
-
-
-
-
-
-
-
-
->>>>>>> b1e0f5e5dbf9d2ff07982fe395969f12be400cf0

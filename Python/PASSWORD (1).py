@@ -31,12 +31,12 @@ if len(password)==8 or len(password)==7 or len(password)==6:
     if password[5]<str(6) or password[5]>str(9) :
         print("El error esta en el caracter 6")
 
-    elif len(password)==7 or len(password)==8:
+    elif len(password)==7:
         if password[6] not in ["&","/","#"]:
             print("El error esta en el carcter 7")            
 
     elif len(password)==8:
-        if password[7]>str(5) or password[7]==(5) :
+        if password[7]>str(5) or password[7]==(5):
             print("El error esta en el caracter 8")
 
 if len(password)<6: 
@@ -45,7 +45,8 @@ if len(password)<6:
 if len(password)>8:
     print("La contraseña supera el numero de carcteres permitidos")
      
-#print("La contraseña cumple los requsitos")
+if (password[0]>str(1) or password[0]<str(5)) or (password[1].islower()== True) or (password[2].isupper()== True) or (password[3]== "*_@") or (password[4].islower()== True) or (password[5]>str(6) or password[5]<str(9)) or (password[6]== ["&","/","#"]) or (password[7]<str(5) and password[7]==(5))== True:
+    print("La contraseña cumple los requsitos")
 
 
 
