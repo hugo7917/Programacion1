@@ -1,4 +1,4 @@
-# 7 1/2
+# 7 1/2 FASE 1
 
 import random 
 tipos_cartas= random.randint(1,7)
