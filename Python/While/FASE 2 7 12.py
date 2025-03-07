@@ -4,9 +4,7 @@ import random
 
 tipos_cartas = random.randint(1,7)
 
-valores_cartas = {
-    1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7,
-    10: 0.5, 11: 0.5, 12: 0.5}
+valores_cartas = {1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 10: 0.5, 11: 0.5, 12: 0.5}
 
 def mostrar_puntuacion(puntuacion):
     print(f"Puntuación actual: {puntuacion:.1f}")

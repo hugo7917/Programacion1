@@ -16,7 +16,8 @@ def jugar():
     while deposito > 0:
         print(f"\nTu depósito tiene {deposito} puntos.")
         print("Bienvenido al juego del 7 y medio!")
-
+        Alias= input("Escribe tu alias: ")
+        
         puntuacion_jugador = 0
         continuar = "si"
 
