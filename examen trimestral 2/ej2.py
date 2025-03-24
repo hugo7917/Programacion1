@@ -1,19 +1,15 @@
 #2
+frase2=""
+frase=input("Introduce...:")
+lista1=frase.split()
+palabra=input("Introduce palabra...:")
+contar=lista1.count(palabra)
 
-orden_frase=[]
-list_palabras= input("Escribe una frase separadas por un guión: ")
-orden_frase= list_palabras.split("-")
+for recorrer in lista1:
+    frase2=frase2 + recorrer +  ","
 
-print= orden_frase
-
-
-
-
-
-
-
-
-
+print(contar)
+print(frase2[:-1])
 
 
 
