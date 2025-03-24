@@ -83,6 +83,7 @@ def jugar():
         if puntuacion_banca > 7.5:
             print(f"\nLa Banca ha superado 7.5. ¡{Alias} gana!")
             deposito += 10
+            
         elif puntuacion_jugador == puntuacion_banca:
             print("\n¡Empate!")
         elif puntuacion_jugador > puntuacion_banca:
