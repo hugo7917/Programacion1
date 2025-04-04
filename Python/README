@@ -102,7 +102,7 @@ tenga x oportunidades para ver si letra introducida está en esa palabra.
 49. A partir del programa anterior, modifica el código para que al introducir la letra por teclado te 
 indique en qué posición de la palabra se encuentra la letra.
 
-EJERCICIOS BUCLES:
+EJERCICIOS WHILE:
 50. Realiza un programa que de los buenos días 3 veces. Con While
 51. A partir del programa anterior, modifica el código para que sea el usuario quién introduzca el 
 número de veces que desea que repita la frase Buenos días. Con While
@@ -126,25 +126,6 @@ realización de un pedido, si quiere gestionar otro.
 57. Realiza un programa que permita adivinar un número comprendido entre 1 y 5. El programa 
 debe controlar si el usuario introduce un número no comprendido entre 1 y 5
 58. Modifica el programa anterior para que tengas 3 intentos. Utiliza while
-59. Diseña un programa que “piense” un numero aleatorio entre 0 y 1000 para que nos pida que 
-60. Diseña un programa que al introducir un número, realice su tabla de multiplicar del 1 al 10. 
-Utiliza únicamente el while
-61. A partir del código anterior, haz que el programa finalice si el valor de la tabla de multiplicar es
-superior o igual a 40.
-62. Realiza un programa que pida dos números por teclado y presente por pantalla qué números 
-hay pares e impares en ese rango. Utiliza for. Contempla si primer valor es superior al segundo.
-63. Realiza un programa que permita tirar 100 veces un dado y nos presente por pantalla el número
-de veces que se repite cada número.
-64. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor 
--99. Será entonces cuando por pantalla aparecerán las siguientes estadísticas:
-65. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor 
--99. Por pantalla debe aparecer cuál de todos los números introducidos es el mayo y cuál el menor.
-66. Repite el ejercicio 63. En lugar de ‘tirar’ 100 veces un dado, modifica el programa para ver cómo 
-se comporta el dado en lanzamientos producidos durante aprox 3 segundos. 
-67. Realiza de nuevo el programa de Password (fase 2). El password debe tener las siguientes 
-consideraciones:
-68. Añade al ejercicio anterior la posibilidad de que el programa pregunte si deseas o no continuar 
-introduciendo passwords. Ej. “¿Deseas introducir otro password s/n
 
 EJERCICIOS LISTAS:
 69. Realiza un programa que permita introducir una cantidad exacta de números, cada número se 
@@ -179,21 +160,6 @@ que presente por pantalla cantidad de valores almacenada. Utiliza el método que
 lista al azar.
 82. Modifica el programa anterior para que sea el usuario intente adivinar la palabra escogida al 
 azar de la lista, indicando si es correcto o no. El programa debe no finaliza hasta que no se adivine 
-83. Modifica el código del ejercicio anterior para que el programa permita repetir x partidas (hasta 
-que el usuario lo decida). Tienes que controlar una puntuación de cada partida de la siguiente 
-manera, si la palabra la aciertas a la primera son 8 puntos, si la aciertas a la segunda 7 puntos y así 
-sucesivamente.
-Una vez el usuario desea finalizar el programa tiene que sumar todas tus puntuaciones obtenidas. 
-Si el total supera la media de la puntuación posible de todas las partidas, se puede decir que la 
-suerte le acompaña, de lo contrario mejor no Se dediques a los juegos de azar . PISTA.. ¿existe 
-algún método que permita sumar el contenido de una lista?
-84. A partir de la lista definida en el ejercicio 81, haz que se visualice por pantalla una de las 
-palabras, pero con todas sus letras desordenadas. El usuario tendrá que recolocar y acertar la 
-palabra secreta. El usuario tendrá 3 oportunidades para adivinar la palabra. 
-85. Te piden realizar un programa en que gestionen la media y la mediana de varias de tres 
-asignaturas de legua: catalán, inglés y castellano. Una vez introducidos varios registros el 
-programa debe mostrar la media y mediana los todos los alumnos introducidos
-86. Realiza el ejercicio del DNI que encontrarás en el Sway.
 
 
 EXAMENES:
