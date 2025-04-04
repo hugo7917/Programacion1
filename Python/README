@@ -163,9 +163,61 @@ azar de la lista, indicando si es correcto o no. El programa debe no finaliza ha
 
 
 EXAMENES:
+PR_UD1_SUMATIVA_EXAMEN_INTERMEDIA:
+ejercicio 1
+ejercicio 2
+ejercicio 3
+ejercicio 4
 
+PR_UD1_SUMATIVA_EXAMEN:
+ejercicio 1
+ejercicio 2
 
+PR_UD2_SUMATIVA EXAMEN TRIMESTRAL:
+No hice ningun ejercicio bien.
 
+PROYECTO 7.5:
+
+FASE 1:
+
+ Programa el código que gestione una partida. El programa ofrece una carta, el usuario puede o no
+ aceptar. La puntuación se acumula según el número de carta que aparece al azar. Si consigues que:
+ La puntuación de 7.5, el programa te felicita. "Enhorabuena, has ganado la partida"
+ Si te pasas de 7.5, el programa informa: "Has perdido la partida!"
+ Si te plantas con una puntuación entre 6 y 7 "Has sido un poco conservador"
+ Si te plantas con una puntuación inferior a 6. "Quizás tendrías que arriesgar un poco ¿no?"
+ El programa te debe dar la opción de repetir o no una nueva partida.
+
+FASE 2:
+A partir del código de la Fase 1, crea un nuevo fichero .py y añade el código correspondiente:
+ Partes de un depósito de 100 puntos. Dependiendo del resultado de una partida, tu puntuación se
+ verá aumentada o disminuida siguiendo los criterios (respeta los mensajes de la Fase 1):
+ Si  consigues 7.5, obtienes 10 puntos
+ Si te pasas de 7.5, pierdes 10 puntos. 
+Si te plantas con una puntuación entre 6 y 7. Ganas 5 puntos
+ Si te plantas con una puntuación inferior a 6. Pierdes 5 puntos.
+ Si tu depósito se queda a 0, no puedes continuar jugando.
+
+FASE 3:
+En esta fase tienes que conseguir que el usuario compita contra el ordenador (banca). Teniendo en
+ cuenta lo siguiente:
+ Haz que el programa solicite un alias al jugador, durante la partida visualiza el alias para
+ mostrar la carta y el acumulado tanto del jugador como del ordenador (banca).
+ La partida la inicia siempre el jugador, irá pidiendo carta hasta intentar conseguir 7,5 o el
+ resultado mas cercano a ese valor. 
+Finalizado el turno del jugador, es el turno de la Banca, con el comando input() controla para
+ que se se visualice cada número de carta obtenido de la instrucción random y lo acumulado. 
+El comando random hace un papel importante para obtener el número de carta al azar, tú como
+ programador tienes que establecer una serie de condiciones para establecer quién gana. A
+ continuación, se facilitan las condiciones:
+ Si la BANCA obtiene entre 5.0 y 7,5 y...
+ JUGADOR tiene una puntuación por debajo del valor de BANCA. 
+BANCA y JUGADOR obtienen el mismo valor. Empate
+ JUGADOR supera 7.5. Gana BANCA
+ Gana BANCA Si JUGADOR obtiene 7.5 y BANCA obtiene menos de 7.5. 
+Gana JUGADOR Si JUGADOR obtiene 7.5 o menos puntuación y BANCA supera 7.5. 
+Gana JUGADOR Si JUGADOR y BANCA superan 7.5. 
+Pierden los dos
 
 
 
